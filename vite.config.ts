@@ -12,4 +12,13 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Bind the dev server to the port the hosting sandbox's preview proxy expects
+  // (DEV_PORT). Without this the config plugin falls back to 8080, which the
+  // preview proxy does not forward, producing a blank / 502 preview.
+  vite: {
+    server: {
+      host: true,
+      port: Number(process.env.DEV_PORT) || 8080,
+    },
+  },
 });
