@@ -7,7 +7,7 @@ const plans = [
     name: "Free",
     price: "$0",
     cadence: "forever",
-    blurb: "Explore KnowledgeOS with a single team.",
+    blurb: "Explore CoreBrain with a single team.",
     cta: "Start Free",
     features: ["100 documents", "500 questions / month", "Source citations", "1 workspace"],
   },

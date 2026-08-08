@@ -10,7 +10,7 @@ const steps = [
   {
     icon: BrainCircuit,
     title: "AI Understands Everything",
-    body: "KnowledgeOS parses structure, tables, and diagrams, then builds a semantic index of your plant.",
+    body: "CoreBrain parses structure, tables, and diagrams, then builds a semantic index of your plant.",
   },
   {
     icon: MessageSquareText,
@@ -31,14 +31,14 @@ const steps = [
 
 export function Solution() {
   return (
-    <section className="section relative overflow-hidden bg-surface">
+    <section id="solutions" className="section relative overflow-hidden bg-surface scroll-mt-20">
       <div aria-hidden className="absolute inset-0 -z-10 bg-mesh opacity-60" />
       <div className="container-page">
         <SectionHeading
           eyebrow="The platform"
           title={
             <>
-              Meet KnowledgeOS — <span className="text-gradient">the AI brain for your company</span>
+              Meet CoreBrain — <span className="text-gradient">the AI brain for your company</span>
             </>
           }
           subtitle="One private knowledge layer that reads everything your company has ever written, and answers like your most experienced engineer."

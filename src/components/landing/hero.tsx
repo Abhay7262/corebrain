@@ -21,13 +21,14 @@ export function Hero() {
           <h1 className="mt-6 text-4xl font-semibold leading-[1.05] sm:text-5xl lg:text-[64px]">
             Your Company's <span className="text-gradient">AI Brain.</span>
             <span className="mt-3 block text-2xl font-medium leading-tight text-muted-foreground sm:text-3xl lg:text-[34px]">
-              Find answers from thousands of company documents in seconds.
+              Turn your factory&apos;s documents into instant answers.
             </span>
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Stop wasting hours searching manuals, SOPs, machine documents, and internal knowledge.
-            Upload once. Ask anything. Get accurate answers with source citations instantly.
+            Search SOPs, machine manuals, maintenance documents and operational knowledge in
+            seconds — with every answer linked back to the exact source. Upload once. Ask anything.
+            Answer with confidence.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-3">

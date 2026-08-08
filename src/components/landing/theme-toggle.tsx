@@ -14,7 +14,7 @@ export function ThemeToggle() {
     setDark(next);
     document.documentElement.classList.toggle("dark", next);
     try {
-      localStorage.setItem("kos-theme", next ? "dark" : "light");
+      localStorage.setItem("corebrain-theme", next ? "dark" : "light");
     } catch {
       /* ignore */
     }

@@ -16,7 +16,7 @@ export function DashboardMockup() {
           <span className="size-2.5 rounded-full bg-chart-5/70" />
           <span className="size-2.5 rounded-full bg-success/70" />
           <div className="ml-3 flex-1 truncate rounded-md bg-surface-2 px-3 py-1 text-[11px] text-muted-foreground">
-            app.knowledgeos.ai / workspace / maintenance
+            app.corebrain.ai / workspace / maintenance
           </div>
         </div>
 

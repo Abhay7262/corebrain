@@ -8,8 +8,8 @@ import { Reveal, SectionHeading } from "./reveal";
 
 const faqs = [
   {
-    q: "Is KnowledgeOS a chatbot?",
-    a: "No. KnowledgeOS is an enterprise knowledge platform. It indexes your entire documentation estate, detects knowledge gaps, generates training material, and returns cited answers. Question answering is one surface of the platform, not the product itself.",
+    q: "Is CoreBrain a chatbot?",
+    a: "No. CoreBrain is an enterprise knowledge platform. It indexes your entire documentation estate, detects knowledge gaps, generates training material, and returns cited answers. Question answering is one surface of the platform, not the product itself.",
   },
   {
     q: "What kinds of documents can it handle?",
@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "How does it avoid making things up?",
-    a: "Answers are generated strictly from retrieved passages in your own documents. Every response carries the source file, revision, page number, and a confidence score. If the evidence isn't there, KnowledgeOS says so instead of guessing.",
+    a: "Answers are generated strictly from retrieved passages in your own documents. Every response carries the source file, revision, page number, and a confidence score. If the evidence isn't there, CoreBrain says so instead of guessing.",
   },
   {
     q: "Is our data used to train AI models?",
@@ -25,11 +25,11 @@ const faqs = [
   },
   {
     q: "Can we deploy it privately or on-premise?",
-    a: "Yes. Enterprise customers can run KnowledgeOS in a dedicated cloud tenancy, in their own VPC, or fully on-premise with region-specific data residency.",
+    a: "Yes. Enterprise customers can run CoreBrain in a dedicated cloud tenancy, in their own VPC, or fully on-premise with region-specific data residency.",
   },
   {
     q: "How do you handle document revisions?",
-    a: "KnowledgeOS is revision-aware. It tracks versions, prioritises the current release, flags conflicting instructions across revisions, and can show what changed between them.",
+    a: "CoreBrain is revision-aware. It tracks versions, prioritises the current release, flags conflicting instructions across revisions, and can show what changed between them.",
   },
   {
     q: "Does it support multiple languages?",

@@ -5,7 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
- * KnowledgeOS design system.
+ * CoreBrain design system.
  * Primary: Deep Blue #2563EB. Dark surface: #0B1220.
  * All colors are oklch tokens. Never hardcode colors in components.
  */

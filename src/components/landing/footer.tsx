@@ -19,7 +19,7 @@ export function Footer() {
             <div className="flex items-center gap-2.5">
               <Logo />
               <span className="font-display text-[17px] font-semibold tracking-tight">
-                KnowledgeOS
+                CoreBrain
               </span>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
@@ -30,7 +30,7 @@ export function Footer() {
               href="https://www.linkedin.com"
               target="_blank"
               rel="noreferrer noopener"
-              aria-label="KnowledgeOS on LinkedIn"
+              aria-label="CoreBrain on LinkedIn"
               className="mt-6 inline-flex size-10 items-center justify-center rounded-xl border border-border bg-card text-muted-foreground transition-colors hover:border-primary/50 hover:text-primary"
             >
               <Linkedin className="size-4" />
@@ -62,7 +62,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col gap-3 border-t border-border pt-7 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} KnowledgeOS. All rights reserved.
+            © {new Date().getFullYear()} CoreBrain. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground">
             Built for manufacturing teams worldwide · SOC 2 ready · GDPR aligned

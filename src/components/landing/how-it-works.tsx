@@ -12,7 +12,7 @@ const steps = [
     icon: BrainCircuit,
     step: "Step 02",
     title: "AI Learns",
-    body: "KnowledgeOS reads, chunks, and indexes every revision, mapping relationships between machines, parts, and procedures.",
+    body: "CoreBrain reads, chunks, and indexes every revision, mapping relationships between machines, parts, and procedures.",
   },
   {
     icon: MessagesSquare,

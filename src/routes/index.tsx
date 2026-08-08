@@ -13,9 +13,9 @@ import { Faq } from "@/components/landing/faq";
 import { FinalCta } from "@/components/landing/final-cta";
 import { Footer } from "@/components/landing/footer";
 
-const title = "KnowledgeOS — AI Knowledge Platform for Manufacturing";
+const title = "CoreBrain — AI Enterprise Knowledge Platform for Manufacturing";
 const description =
-  "KnowledgeOS is the AI enterprise knowledge platform for manufacturing. Search thousands of manuals and SOPs and get cited answers in seconds.";
+  "CoreBrain turns your factory's SOPs, machine manuals, and maintenance documents into instant, cited answers. The AI enterprise knowledge platform for manufacturing teams.";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -36,7 +36,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "SoftwareApplication",
-          name: "KnowledgeOS",
+          name: "CoreBrain",
           applicationCategory: "BusinessApplication",
           description,
           offers: {

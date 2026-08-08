@@ -35,7 +35,7 @@ export function InteractiveDemo() {
           <div className="card-premium overflow-hidden">
             <div className="flex items-center gap-2 border-b border-border bg-surface-2/60 px-5 py-3.5">
               <Sparkle className="size-4 text-primary" />
-              <span className="text-sm font-semibold">KnowledgeOS Assistant</span>
+              <span className="text-sm font-semibold">CoreBrain Assistant</span>
               <span className="ml-auto inline-flex items-center gap-1.5 text-xs text-muted-foreground">
                 <span className="size-1.5 rounded-full bg-success" /> Connected to 18,402 documents
               </span>

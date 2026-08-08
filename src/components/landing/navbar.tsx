@@ -6,6 +6,7 @@ import { Logo } from "./logo";
 
 const links = [
   { label: "Features", href: "#features" },
+  { label: "Solutions", href: "#solutions" },
   { label: "How It Works", href: "#how-it-works" },
   { label: "Pricing", href: "#pricing" },
   { label: "FAQ", href: "#faq" },
@@ -31,7 +32,7 @@ export function Navbar() {
       <nav className="container-page flex h-16 items-center justify-between lg:h-18" aria-label="Main">
         <a href="#top" className="flex items-center gap-2.5">
           <Logo />
-          <span className="font-display text-[17px] font-semibold tracking-tight">KnowledgeOS</span>
+          <span className="font-display text-[17px] font-semibold tracking-tight">CoreBrain</span>
         </a>
 
         <ul className="hidden items-center gap-1 md:flex">
@@ -53,7 +54,7 @@ export function Navbar() {
             Login
           </Button>
           <Button variant="hero" size="sm">
-            Get Started
+            Start Free
           </Button>
         </div>
 
@@ -90,7 +91,7 @@ export function Navbar() {
                 Login
               </Button>
               <Button variant="hero" size="sm" className="flex-1">
-                Get Started
+                Start Free
               </Button>
             </li>
           </ul>
